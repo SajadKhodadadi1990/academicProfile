@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>Sajad Khodadadi | Laminar Film Condensation on a Vertical Plate</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="../../css/styleCondensation.css">
+		
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../css/templatemo-style.css">
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/jquery.singlePageNav.min.js"></script>
+		<script src="../../js/typed.js"></script>
+		<script src="../../js/wow.min.js"></script>
+		<script src="../../js/custom.js"></script>
+
+		<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+		<script id="MathJax-script" async
+		   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body id="top">
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+98-912-028-0065</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="mailto:sajad.khodadadi68@gmail.com">sajad.khodadadi68@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://scholar.google.com/citations?user=eg6GRmYAAAAJ&hl=en" target="_blank" class="fa fa-google"></a></li>
+                            <li><a href="https://ir.linkedin.com/in/sajad-khodadadi" target="_blank" class="fa fa-linkedin-square"></a></li>
+                            <li><a href="https://github.com/SajadKhodadadi1990" target="_blank" class="fa fa-github-square"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Sajad Khodadadi</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../../index.html">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="paper-title">
+            <div class="container">
+                <h1>Development of a numerical code based on the finite volume method for solving two-dimensional Navier-Stokes equations in steady state  </h1>
+            </div>
+        </section>
+        
+
+		<section id="introduction-methodology">
+            <div class="container">
+                <h3>1. Introduction & Methodology</h3>
+                <p>The equation of momentum in the x and y directions is discretized using the finite volume method and has the following general form:</p>
+                <p>(1) &nbsp;
+                    \[
+                    a_P \phi_P = \sum a_{NB} \phi_{NB} + S
+                    \]
+                </p>
+                <p>The continuity equation is converted into a pressure correction equation using the SIMPLE algorithm. The final discrete equation is written in the form of equation (1).</p>
+                <p>For the discretization of variables on the control volume surfaces, the upstream difference approach and the power-law method are applied.</p>
+                <p>The governing equations, which are Navier-Stokes, are defined in the following two-dimensional form:</p>
+    
+                <p>(2) &nbsp;
+                    \[
+                    \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
+                    \]
+                </p>
+                
+                <p>(3) &nbsp;
+                    \[
+                    \frac{\partial (\rho u u)}{\partial x} + \frac{\partial (\rho v u)}{\partial y} = -\frac{\partial p}{\partial x} + \frac{\partial}{\partial x} \left( \mu \frac{\partial u}{\partial x} \right) + \frac{\partial}{\partial y} \left( \mu \frac{\partial u}{\partial y} \right)
+                    \]
+                </p>
+                
+                <p>(4) &nbsp;
+                    \[
+                    \frac{\partial (\rho u v)}{\partial x} + \frac{\partial (\rho v v)}{\partial y} = -\frac{\partial p}{\partial y} + \frac{\partial}{\partial x} \left( \mu \frac{\partial v}{\partial x} \right) + \frac{\partial}{\partial y} \left( \mu \frac{\partial v}{\partial y} \right)
+                    \]
+                </p>
+            </div>
+        </section>
+        
+        <section id="results">
+            <div class="container">
+                <h3>2. Results</h3>
+                <p>In this section, we present the results obtained by applying a pressure correction factor of 0.1 and a velocity correction factor of 0.7. The simulation was performed on a 17x17 grid for Reynolds number 100. The flow streamlines and the vertical and horizontal velocity components are depicted in Figures (1), (2), and (3) respectively.</p>
+        
+                <div class="image-container">
+                    <figure>
+                        <img src="../../images/Coarses/CFD/4/1.png">
+                        <p><strong>Figure 1:</strong><br>
+                            <i>Streamlines</i></p>
+                    </figure>
+                    <br/>
+                    <figure>
+                        <img src="../../images/Coarses/CFD/4/2.png">
+                        <img src="../../images/Coarses/CFD/4/3.png">
+                 
+                    </figure>
+                    <br/>
+                    
+                    <p><strong>Figure 2:</strong> Vertical Velocity Component</p>
+                    <p><strong>Figure 3:</strong> Horizontal Velocity Component</p>
+                </div>
+        
+                <p>Additional results and analyses are available in the appendix.</p>
+            </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2024 Sajad Khodadadi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+
+
+
+
+	</body>
+</html>
