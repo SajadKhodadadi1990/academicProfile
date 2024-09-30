@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>Sajad Khodadadi | Laminar Film Condensation on a Vertical Plate</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="../css/styleCondensation.css">
+		
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/templatemo-style.css">
+		<script src="../js/jquery.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.singlePageNav.min.js"></script>
+		<script src="../js/typed.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/custom.js"></script>
+
+		<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+		<script id="MathJax-script" async
+		   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body id="top">
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+98-912-028-0065</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="mailto:sajad.khodadadi68@gmail.com">sajad.khodadadi68@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://scholar.google.com/citations?user=eg6GRmYAAAAJ&hl=en" target="_blank" class="fa fa-google"></a></li>
+                            <li><a href="https://ir.linkedin.com/in/sajad-khodadadi" target="_blank" class="fa fa-linkedin-square"></a></li>
+                            <li><a href="https://github.com/SajadKhodadadi1990" target="_blank" class="fa fa-github-square"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Sajad Khodadadi</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../index.html">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section id="paper-title">
+			<div class="container">
+				<h1>Lift Force</h1>
+				<p>Author: Sajad Khodadadi</p>
+			
+			</div>
+		</section>
+	
+		<section id="abstract">
+			<div class="container">
+				<h3>Abstract</h3>
+				<p>This research examines the Lift force on a particle using a compressible solver in OpenFoam software. Also, in this research, according to the previous researches, we have chosen the best formula for the Lift coefficient among the different Lift coefficients and used the developed solver. In the end, the simulation results confirm the correctness of our OpenFoam solver compared to the experimental results.</p>
+			</div>
+		</section>
+	
+
+		
+
+
+		<section id="introduction">
+			<div class="container">
+				<h3>1. Introduction</h3>
+				<p>The lift force applied to a particle is due to the velocity gradients in the velocity field of the main phase. The Saffman lift force is more significant for larger particles. Also, a particle moving in a shear field experiences Saffman lift perpendicular to its direction of movement. The effect of the lift force caused by inertia in the viscous flow surrounding a particle is fundamentally different from the aerodynamic lift force.</p>
+			
+			</div>
+		</section>
+	
+		<section id="methodology">
+			<div class="container">
+				<h3>2. Methodology</h3>
+		<p>The geometry used is a channel with dimensions of 20m length and 1m width. The flow is laminar and the problem is similar to Couette flow with a moving upper wall and a stationary lower wall. Also, we have used the article of Saffman et al [1]. and Dandy et al [2].</p>
+		<p>For this channel, the grid used is 20×100 and the results are given below. It should be noted that networking has been done for three types of networks, 1500, 2000, 3000 cells.</p>
+    </div>
+		</section>
+	
+
+		<section id="formulas">
+			<div class="container">
+				<h3>3. Flow Simulation Results</h3>
+				<p>In the research of Saffman et al [1], the lift force is expressed as equation (1):</p>
+				<p>\[ F_{\text{lift (saff)}} = 1.61 \rho_v^{1/2} d^2 (u^f - u^p) \left| \frac{du^f}{dy} \right|^{1/2} \, \text{sgn}\left( \frac{du^f}{dy} \right) \]</p>
+
+                <br/>
+				<p>For different tests, we change the speed on the wall, which results in a flow with different speed gradients. Now it is possible to obtain and check the changes of the lift coefficient for constant \( \alpha \) and different Reynolds numbers. The desired particle is released near the bottom wall and the interphase communication is one-way. Also, the continuous phase is air and its viscosity is 0.00001 m²/s.</p>
+
+
+				<figure>
+					<img src="../images/Lift-Force/fig1.png" alt="Figure 1 Comparing the results of the developed solver with the experimental results of Saffman [1].">
+					<figcaption>Figure 1 Comparing the results of the developed solver with the experimental results of Saffman [1].</figcaption>
+				</figure>
+
+				<br/>
+			
+			<p>The results of the validation can be seen in Figure (1), which has a very good agreement with the results of Saffman. We can also see that with the increase of particle Reynolds number, the particle lift coefficient decreases and for Reynolds number greater than 40, the lift coefficient value remains constant.</p>
+		<p>In the following, we compared the obtained values of the lift force through the developed solver with the analytical values. It was observed that the values correspond very much and the lift force sub-model used in the solver works completely correctly.</p>	
+        </div>
+		</section>
+
+
+	
+		<section id="conclusion" class="mt-10">
+			<div class="container">
+				<h3>References</h3>
+				<p>  [1] P. Saffman, "The lift on a small sphere in a slow shear flow," Journal of fluid mechanics, vol. 22, no. 2, pp. 385-400, 1965  </p>
+			<p>[2]    D. S. Dandy and H. A. Dwyer " ,A sphere in shear flow at finite Reynolds number: effect of shear on particle lift, drag, and heat transfer," Journal of Fluid Mechanics, vol. 216, pp. 381-410, 1990.</p>
+            </div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2024 Sajad Khodadadi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+
+
+
+
+	</body>
+</html>

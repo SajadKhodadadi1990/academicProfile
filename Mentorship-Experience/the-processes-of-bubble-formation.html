@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>Sajad Khodadadi | Laminar Film Condensation on a Vertical Plate</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="../css/styleCondensation.css">
+		
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/templatemo-style.css">
+		<script src="../js/jquery.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.singlePageNav.min.js"></script>
+		<script src="../js/typed.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/custom.js"></script>
+
+		<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+		<script id="MathJax-script" async
+		   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body id="top">
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+98-912-028-0065</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="mailto:sajad.khodadadi68@gmail.com">sajad.khodadadi68@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://scholar.google.com/citations?user=eg6GRmYAAAAJ&hl=en" target="_blank" class="fa fa-google"></a></li>
+                            <li><a href="https://ir.linkedin.com/in/sajad-khodadadi" target="_blank" class="fa fa-linkedin-square"></a></li>
+                            <li><a href="https://github.com/SajadKhodadadi1990" target="_blank" class="fa fa-github-square"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Sajad Khodadadi</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../index.html">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section id="paper-title">
+			<div class="container">
+				<h1>Investigating the processes of bubble formation and collapse caused by sound waves near the wall</h1>
+                <p>Author: Ahmad Hosseini</p>
+				<p>Supervisors: Dr. Reza Maddahian, Dr. Sajad Khodadadi</p>
+			
+			</div>
+		</section>
+	
+		<section id="abstract">
+			<div class="container">
+				<h3>Abstract</h3>
+				<p>This research investigates the dynamics of bubble growth and collapse near a solid wall, which is crucial for applications such as surface cleaning, drug delivery, cancer treatment, and fat burning. By assuming compressible liquid and gas phases and using a modified fluid volume method in OpenFOAM, the study enhances the compressible interfoam solver. This allows accurate modeling of fluid jets, pressures, temperatures, and densities. The simulation results were validated against four criteria problems.The findings highlight the significant impact of the dimensionless gamma number on bubble behavior near the wall. A 60% increase in this number reduces maximum shear stress on the wall by 37% and increases the maximum temperature inside the bubble by 12%. Additionally, higher gamma numbers decrease the likelihood of a second bubble collapse and expand the area affected by jet collisions. The initial pressure of the bubble also plays a crucial role, with a 50% increase leading to a 6% decrease in maximum bubble temperature and minimal changes in other parameters.</p>
+			</div>
+		</section>
+	
+
+		
+
+
+		<section id="introduction">
+			<div class="container">
+				<h3>1. Introduction</h3>
+				<p>Cavitation poses significant challenges for engineers and researchers due to the various issues it causes. Since its discovery, scientists have aimed to understand its underlying physics and utilize the energy released from bubble collapse for different applications. In studying two-phase flows, numerical simulations complement experimental research to explore the complex physics involved. These simulations typically use the Navier-Stokes equations, adapted to the chosen numerical method. This article uses an improved compressible interfoam solver to investigate and validate four benchmark problems: bubble regimes, stable bubble, and bubble pair. The simulation results are compared with findings from related studies..</p>
+
+			</div>
+		</section>
+	
+        
+
+		<section id="formulas">
+			<div class="container">
+				<h3>2. Flow Simulation and Validation Results</h3>
+                <h3>2.1 Validation of bubble regimes in liquid column</h3>
+				<p>In this simulation, the geometry was considered axially symmetrical (with the 5-degree sector serving as a representative of the overall geometry), resulting in a notable reduction in computational cost. </p>
+				<figure>
+					<img src="../images/Investigating-the-interaction/fig1.png" alt="Figure 1 The contour of the interface of the bubble for the value of alpha is equal to 0.5">
+					<figcaption>Figure 1 The contour of the interface of the bubble for the value of alpha is equal to 0.5</figcaption>
+				</figure>
+
+				<br/>
+			<p>To evaluate the independence of the solution from changes in the computational grid, as described in the independence section related to bubble failure. Necessary measures were taken. Finally, to achieve the independence of the solution from the computing network, alpha contour was examined for the value of 0.5 for four different networks. As can be seen in Figure (1), the results for the 267 x 200 and 348 x 261 networks have very little difference with each other, so we are allowed to use one of these two networks for simulation so that logical and correct results are obtained.</p>
+            <figure>
+                <img src="../images/the-processes-of-bubble-formation/fig1.png" alt="Fig1.Evaluation of shape and position in terms of dimensionless time ">
+                <figcaption>Fig1.Evaluation of shape and position in terms of dimensionless time </figcaption>
+            </figure>
+
+            <br/>
+       
+			<h3>2.2 validation of stable bubble</h3>
+			<p>When a microbubble is situated within an infinite environment and initially subjected to a pressure, the bubble's radius will exhibit a continuous fluctuation due to the symmetry of the system. This ensures that the bubble will not fail. The simulation geometry is a two-dimensional, symmetrical semicircle.</p>
+			<figure>
+                <img src="../images/the-processes-of-bubble-formation/fig2.png" alt="Fig2 A comparative analysis of the changes in bubble radius between the current simulation results and those reported by Ronninger in his research..">
+                <figcaption>Fig2 A comparative analysis of the changes in bubble radius between the current simulation results and those reported by Ronninger in his research..</figcaption>
+            </figure>
+
+            <br/>
+		
+
+
+			<h3>2.2 validation of bubble pair</h3>
+			<p>In the bubble pair problem, two dimensionless numbers, 𝛾 and 𝜉, which are defined below, are employed to ascertain the distance between the two bubbles.</p>
+			<p>\[ \left\{ \begin{array}{c} \gamma = \frac{d}{R_{\text{max1}} + R_{\text{max2}}} \\ \xi = \frac{R_{\text{max2}}}{R_{\text{max1}}} \end{array} \right. \]</p>
+
+			
+			<figure>
+                <img src="../images/the-processes-of-bubble-formation/fig3.png">
+                <figcaption>Fig3. A comparative analysis of the deformation of the bubble pair over time is presented, with a focus on the findings of three distinct research studies: (a) experimental research by Han et al., (b) numerical research by Han et al., and (c) the present study.</figcaption>
+            </figure>
+
+            <br/>
+
+		</div>
+		</section>
+
+
+	
+
+
+
+
+		<section id="formulas">
+			<div class="container">
+				<h3>3. Validation of Results</h3>
+				<p>Following the validation of the developed compressible interfoam solver, an investigation was conducted into the dynamics of growth and collapse of a single bubble in the vicinity of a rigid wall.</p>
+				<figure>
+					<img src="../images/Investigating-the-interaction/fig4.png" >
+					<figcaption>Fig4. The change trend of the bubble radius in terms of time in gamma conditions equal to 0.8.</figcaption>
+				</figure>
+
+				<br/>
+			
+            <figure>
+                <img src="../images/the-processes-of-bubble-formation/fig5.png">
+                <figcaption>Fig5. Comparison of the trend of changes in the maximum temperature inside the bubble in terms of time in the conditions of gamma equal to 0.8 and gamma equal to 1.3</figcaption>
+            </figure>
+
+            <br/>
+       
+
+		</div>
+		</section>
+
+
+	
+
+
+
+
+		<section id="formulas">
+			<div class="container">
+				<h3>4. Conclusion</h3>
+				<p>The research highlights the significant influence of the dimensionless gamma number on bubble dynamics near a rigid wall. An increase in the gamma number leads to a thicker fluid layer between the bubble and the wall, resulting in greater dissipation due to fluid viscosity and lower shear stress from the jet impact. Additionally, the study emphasizes the critical role of parameters such as jet speed, bubble collapse time, and maximum bubble compression in heat transfer between liquid and gas phases. Higher gamma numbers and smaller minimum bubble radii increase the maximum temperature inside the bubble, which can be detrimental in applications like drug delivery.</p>
+        <p>Furthermore, while larger gamma numbers reduce shear stress on the solid wall, they increase the affected area by the jet impact. Increasing the initial bubble pressure also enlarges the affected area but has a negligible effect on shear stress and pressure on the wall at high pressures. The study suggests using higher initial pressures to lower the maximum temperature inside the bubble for sensitive applications. The research also notes that the initial shock wave from the bubble creates a momentary high pressure on the wall, which quickly dissipates without causing significant shear stress. The primary focus is on understanding the pressure and shear stress on the wall due to the jet impact from bubble collapse.</p>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2024 Sajad Khodadadi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+
+
+
+
+	</body>
+</html>
