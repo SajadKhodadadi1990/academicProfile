@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>Sajad Khodadadi | Laminar Film Condensation on a Vertical Plate</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="../css/styleCondensation.css">
+		
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/templatemo-style.css">
+		<script src="../js/jquery.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.singlePageNav.min.js"></script>
+		<script src="../js/typed.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/custom.js"></script>
+
+		<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+		<script id="MathJax-script" async
+		   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body id="top">
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+98-912-028-0065</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="mailto:sajad.khodadadi68@gmail.com">sajad.khodadadi68@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://scholar.google.com/citations?user=eg6GRmYAAAAJ&hl=en" target="_blank" class="fa fa-google"></a></li>
+                            <li><a href="https://ir.linkedin.com/in/sajad-khodadadi" target="_blank" class="fa fa-linkedin-square"></a></li>
+                            <li><a href="https://github.com/SajadKhodadadi1990" target="_blank" class="fa fa-github-square"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Sajad Khodadadi</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../../index.html">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+		<section id="paper-title">
+			<div class="container">
+				<h1>Investigation of the fouling layer growth using coupled immersed boundary and Eulerian-Lagrangian methods</h1>
+			</div>
+		</section>
+        <section id="abstract">
+            <div class="container">
+                <h3>Abstract</h3>
+                <p>This paper simulates the growth of a fouling layer on the outer surface of pipes using the "Immersed Boundary" and "Eulerian-Lagrangian" methods. In this approach, the continuous fluid flow is modeled using the Eulerian framework, while suspended particles are tracked using the Lagrangian method. The Immersed Boundary method is employed to reduce computational costs compared to dynamic mesh techniques. The results show that particles smaller than 10 micrometers can penetrate behind the cylinder, while larger particles tend to accumulate at the front. An increase in Reynolds number reduces fouling mass due to enhanced surface shear stress and a decrease in critical deposition velocity.</p>
+            </div>
+        </section>
+        
+
+        
+        <section id="video-section">
+			<div class="container">
+				
+				<video width="60%" id="myVideo" autoplay muted loop>
+					<source src="../Clip/EuFoul.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		
+        <script>
+            const video = document.getElementById("myVideo");
+            video.playbackRate = 2.5;
+          </script>
+
+
+
+
+
+
+
+        <section id="introduction">
+            <div class="container">
+                <h3>1. Introduction</h3>
+                <p>Fouling, the accumulation of particles on surfaces, is a major challenge in many industrial processes, particularly in heat exchangers and pipelines. It reduces heat transfer efficiency and can lead to increased pressure drops, system blockages, and higher operational costs. Understanding the mechanisms behind fouling layer growth is crucial for designing systems that mitigate its impact. Numerical simulations offer a powerful tool to study the complex, unsteady, and multiphase nature of fouling. This paper employs a coupled Eulerian-Lagrangian and Immersed Boundary method to simulate fouling on pipe surfaces, aiming to capture the detailed interactions between fluid flow, particle deposition, and fouling layer formation. The study focuses on key factors such as particle size, flow velocity, and Reynolds number, and provides insights into how these parameters influence fouling behavior.</p>
+            </div>
+        </section>
+        
+        <section id="methodology">
+            <div class="container">
+                <h3>2. Methodology & Solution</h3>
+                <p>In this study, the growth of a fouling layer on the outer surface of a pipe within a two-dimensional channel is simulated using a combination of the Eulerian-Lagrangian method and the Immersed Boundary Method (IBM). The continuous phase (fluid) is modeled using the Eulerian approach, while suspended particles in the discrete phase are tracked using the Lagrangian method. The Immersed Boundary Method is employed to simulate the deformation and movement of solid boundaries without the need for mesh reconstruction, reducing computational costs by up to 30%.</p>
+                
+                <p><strong>Geometry Dimensions:</strong><br>
+                The geometry consists of a circular pipe with a diameter of 22 mm, located within a two-dimensional channel with a length of 300 mm and a width of 50 mm. This pipe is modeled as the surface where fouling occurs.</p>
+        
+                <p><strong>Boundary Conditions:</strong><br>
+                • Channel Inlet: Velocity inlet condition with a value of 1.93 m/s in the horizontal direction.<br>
+                • Channel Outlet: Zero pressure boundary condition.<br>
+                • Channel walls and pipe: No-slip condition for velocity and zero-gradient for pressure.</p>
+        
+                <p><strong>Solution Methodology:</strong><br>
+                OpenFOAM software is used to solve the problem, with a uniform mesh around the pipe. Particles are randomly injected from different points at the inlet, and their positions, forces, and velocities are updated at each time step. Particle collisions with the pipe surface are evaluated, and based on collision forces and adhesion, the deposition mass is calculated. A supporting algorithm is used to update the position of the fouling surface and manage fouling layer growth.</p>
+            </div>
+        </section>
+        
+        <section id="results">
+            <div class="container">
+                <h3>3. Flow Simulation and Validation Results</h3>
+                <p>In this simulation, a combined Eulerian-Lagrangian model with the Immersed Boundary Method (IBM) was used to study the growth of the fouling layer on a pipe. This method helps reduce computational costs and allows for a detailed investigation of interactions between fluid flow and particle deposition. Particles are injected at each time step, and their forces, positions, and collisions with the pipe surface are evaluated. Collisions may lead to either adhesion or detachment of particles, depending on the adhesion and impact forces.</p>
+        
+                <p>The Brownian motion of the particle is described by the Lagrangian equation:
+                \[
+                \frac{du}{dt} + \beta u = n(t)
+                \]
+                The diffusion coefficient is calculated as:
+                \[
+                D = \frac{KT}{\beta m} = \frac{KT C_c}{3\pi \mu d}
+                </p>
+        
+                <p>The simulation results showed that particles smaller than 10 micrometers penetrate behind the pipe, while larger particles (25-30 micrometers) predominantly accumulate in front of the pipe and deposit with nearly twice the frequency of smaller particles. Additionally, an increase in Reynolds number (Re) resulted in a 67% reduction in fouling mass due to increased surface shear stress and a decrease in critical deposition velocity.</p>
+        
+                <p>Larger particles are more uniformly distributed across the surface of the pipe, particularly at different pipe angles, where they tend to accumulate more on the lateral sections. Furthermore, with increasing Young's modulus, for example, at a modulus of 50,000 MPa, fouling deposition is nearly eliminated. These findings are valuable for optimizing anti-fouling system designs and improving the efficiency of heat transfer equipment.</p>
+        
+                <div class="image-container">
+                    <figure>
+                        <img src="../images/Investigation of the fouling layer growth/a.png">
+                        <img src="../images/Investigation of the fouling layer growth/b.png">
+                        <figcaption><strong>Figure 7</strong> comparison of ash particle fouling layer growth on the boiler tube in the experimental work [1] and the present study (a) experimental work (b) present study.</figcaption>
+                    </figure>
+    
+                    <br/>
+                   
+                    <p>In Figure(1), the comparison of the growth of the deposit layer of ash particles on the boiler tube in the present and experimental work are compared. As shown in Fig(1), the results for fouling layer growth demonstrate acceptable accuracy.</p>
+                    
+                    <figure>
+                        <img src="../images/Investigation of the fouling layer growth/fig8.png">
+                        <figcaption><strong>Figure 8</strong> Comparison of the change in the height of the ash fouling on the front of the boiler tube over time in Zheng's research and the present work [1].</figcaption>
+                    </figure>
+                    
+        
+                    <p>For further analysis, Fig 8 presents the graph of fouling height variation over time at the leading edge of the fouling layer, as reported by Zheng et al.[1]. The maximum error in this study is approximately 4%, which is attributed to the modeling of surface forces on the particles, where only key forces such as drag, lift, and gravity were considered.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="references">
+            <div class="container">
+                <h3>4. References</h3>
+                <p>[1] Z. Zheng et al., "Development of a mechanistic fouling model for predicting deposit formation in a woodchip-fired grate boiler," Energy, vol. 220, p. 119699, 2021.</p>
+            </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2024 Sajad Khodadadi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+
+
+
+
+	</body>
+</html>
