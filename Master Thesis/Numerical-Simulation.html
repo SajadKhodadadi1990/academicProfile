@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>Sajad Khodadadi | Laminar Film Condensation on a Vertical Plate</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="../css/styleCondensation.css">
+		
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/templatemo-style.css">
+		<script src="../js/jquery.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.singlePageNav.min.js"></script>
+		<script src="../js/typed.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/custom.js"></script>
+
+		<script src="https://polyfill.io/v3/polyfill.min.js"></script>
+		<script id="MathJax-script" async
+		   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+		</script>
+	</head>
+	<body id="top">
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+98-912-028-0065</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="mailto:sajad.khodadadi68@gmail.com">sajad.khodadadi68@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="https://scholar.google.com/citations?user=eg6GRmYAAAAJ&hl=en" target="_blank" class="fa fa-google"></a></li>
+                            <li><a href="https://ir.linkedin.com/in/sajad-khodadadi" target="_blank" class="fa fa-linkedin-square"></a></li>
+                            <li><a href="https://github.com/SajadKhodadadi1990" target="_blank" class="fa fa-github-square"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Sajad Khodadadi</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../index.html">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section id="paper-title">
+			<div class="container">
+				<h1>Numerical Simulation of Bubble Pair Rising in a Stationary Liquid</h1>
+				<p>Author: Sajad Khodadadi</p>
+
+			</div>
+		</section>
+	
+		<section id="abstract">
+			<div class="container">
+				<h3>Abstract</h3>
+				<p>In this paper, the motion and interaction of a bubble pair rising in a quiescent liquid are simulated using the volume of fluid (VOF) method in the OpenFOAM CFD software. The study explores coalescence, bouncing, zigzagging, and breakup phenomena based on Bond (Bo) and Morton (Mo) numbers. Validation against experimental and previous numerical studies demonstrates the model’s accuracy. Various bubble arrangements (0°, 45°, 90°) are tested, revealing the influence of bubble interactions.</p>
+			</div>
+		</section>
+	
+
+		  
+        <section id="video-section">
+			<div class="container">
+				
+				<video width="50%" id="myVideo" autoplay muted loop>
+					<source src="../Clip/11.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		
+        <script>
+            const video = document.getElementById("myVideo");
+            video.playbackRate = 2.5;
+          </script>
+
+		
+
+
+		<section id="introduction">
+			<div class="container">
+				<h3>1. Introduction</h3>
+				<p>Multiphase flows, including bubble dynamics, play a crucial role in industrial applications such as heat exchangers, atomization, and chemical processes. Understanding the behavior of bubble pairs is essential for predicting fluid dynamics. The current study investigates bubble interactions, including coalescence, bouncing, zigzagging, and breakup, based on the dimensionless Bond and Morton numbers.</p>
+			
+			</div>
+		</section>
+	
+		<section id="methodology">
+			<div class="container">
+				<h3>2. Methodology</h3>
+                <h3>2.1 Governing Equations</h3>
+		<p>The numerical simulation is carried out using OpenFOAM’s interFoam solver, which employs the volume of fluid (VOF) method to track the interface between liquid and gas. The governing equations include the continuity and Navier-Stokes equations, with surface tension modeled using the continuum surface force (CSF) method.</p>
+
+        <h3>2.2  Computational Setup</h3>
+        <p>The bubble pair simulations are performed in a 2D domain. Boundary conditions include no-slip walls and a zero-gradient pressure condition at the outlet. Different configurations, with the angle between the bubbles set to 0°, 45°, and 90°, are tested to observe interaction dynamics.</p>
+
+    </div>
+		</section>
+	
+
+		<section id="formulas">
+			<div class="container">
+				<h3>3. Results and Discussion</h3>
+				<p>The results demonstrate four distinct bubble interaction regimes: coalescence, bouncing, zigzagging, and breakup. Figure 1 compares the simulation results with experimental data and Figure 2 shows the bubble motion for different Bond and Morton numbers.</p>
+			
+				<figure>
+					<img src="../images/Numerical-Simulation/fig1.png" alt="Fig 1. Comparison of the bouncing regime shapes between experimental vs numerical results.">
+					<figcaption>Fig 1. Comparison of the bouncing regime shapes between experimental vs numerical results.</figcaption>
+				</figure>
+
+				<br/>
+			
+                <figure>
+					<img src="../images/Numerical-Simulation/fig2.png" alt="Figure 3 Comparison of the pressure changes created between the present numerical work and the analytical work at t=0.7ms [1].">
+					<figcaption>Fig 2. The interaction type of bubble pair for different Bond and Morton numbers.</figcaption>
+				</figure>
+
+				<br/>
+			
+
+        </div>
+		</section>
+
+
+	
+
+
+		<section id="formulas">
+			<div class="container">
+				<h3>4. Conclusion</h3>
+				<p>This study successfully simulates the interaction of bubble pairs rising in a quiescent liquid using the VOF method in OpenFOAM. Four distinct interaction types are observed, and the results align closely with experimental findings, particularly in predicting coalescence and bouncing behavior. Future work could extend the simulation to 3D models to capture more complex interactions.</p>
+
+        </div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2024 Sajad Khodadadi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+
+
+
+
+	</body>
+</html>
