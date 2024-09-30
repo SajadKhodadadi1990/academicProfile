@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    
+    line-height: 1.6;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Styling for sections */
+section {
+    padding: 20px 0;
+}
+
+#paper-title h1{
+    font-size: 30px !important;
+}
+
+
+#paper-title, #abstract, #formulas, #images, #conclusion {
+
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+   
+}
+#paper-title, #abstract, #formulas, #images, #conclusion h2{
+    text-align: left;
+}
+
+
+/* Formula Styling */
+.MathJax_Display {
+    text-align: left;
+}
+
+/* Figure Styling */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+
+
+
+#video-section {
+    
+    padding: 20px 0; /* فضای داخلی */
+    text-align: center; /* مرکز چین برای متن */
+}
+
+#video-section h2 {
+    margin-bottom: 20px; /* فاصله زیر عنوان */
+    font-size: 24px; /* اندازه فونت عنوان */
+    color: #fff; /* رنگ عنوان */
+}
+
+video {
+    border: 1px solid #ccc; /* حاشیه دور ویدیو */
+    border-radius: 5px; /* گوشه‌های گرد */
+    max-width: 100%; /* حداکثر عرض 100% برای نمایش responsively */
+    height: auto; /* ارتفاع خودکار برای حفظ نسبت */
+}

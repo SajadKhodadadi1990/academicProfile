@@ -1,0 +1,22 @@
+.containerdd {
+    text-align: center; /* تراز متن در وسط */
+    padding: 20px; /* فاصله داخلی */
+    
+    border-radius: 10px; /* گرد کردن گوشه‌ها */
+    
+   
+}
+
+.download-btn {
+    background-color: #000; /* رنگ دکمه */
+    color: 28a7e9; /* رنگ متن */
+    padding: 15px 30px; /* فاصله داخلی */
+    text-decoration: none !important; /* حذف زیرخط */
+    border-radius: 5px; /* گرد کردن گوشه‌ها */
+    font-size: 16px; /* اندازه فونت */
+    transition: background-color 0.3s; /* انیمیشن */
+}
+
+.download-btn:hover {
+    background-color: #28a7e9; /* رنگ جدید هنگام هاور */
+}
