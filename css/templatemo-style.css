@@ -525,6 +525,7 @@ header .social-icon li a
 
 #Publications .col-md-4
 	{
+		height: 380px;
 		padding: 40px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
